@@ -10,10 +10,19 @@
   border-right: 1px solid white;
 }
 
+.show-selection {
+  width: 100vw;
+  text-align: center;
+}
+
+.show-selection h2 {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
 .show:hover,
 .show.selected {
+  background: #282828;
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .show-details {

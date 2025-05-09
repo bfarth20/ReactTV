@@ -10,7 +10,11 @@ html {
 }
 
 body {
-  background: #111;
+  background: radial-gradient(
+    rgb(0, 0, 0),
+    rgb(117, 114, 202),
+    rgb(14, 14, 118)
+  );
 }
 
 #root {
